@@ -1,0 +1,615 @@
+*{
+    width: 200px;
+    height: 600px;
+}
+.house1{
+    width: 540px;
+    height: 403px;
+    position: relative;
+    top: -1538px;
+    border-color: #F5F5F5;
+    border-style: solid;
+    z-index: 5;
+}
+.wood1_1, .wood1_2, .wood1_3{
+    width: 497px;
+    height: 5px;
+    background-color: #9b4b0d;
+    position: relative;
+    z-index: 5; 
+}
+.wood1_2, .wood1_3{
+    width: 3px;
+    height: 309px;
+    left: 0px;
+    top: -1165px;
+}
+.wood1_2{
+    left: 494px;
+    top:-856px;
+}
+.roof1{
+    width: 0; height: 0;
+    border-left: 251px solid transparent;
+    border-right: 249px solid transparent;
+    border-bottom: 103px solid #1c1917;
+    position: relative;
+    z-index: 5;
+}
+.secondfloor1{
+    width: 497px;
+    height: 150px;
+    background-color: #d6b39e;
+    position: relative;
+    z-index: 5;
+}
+.window1_1, .window1_2{
+    width: 60px;
+    height: 79px;
+    border-style: solid;
+    border-color: rgb(155, 75, 13);
+    background-color: rgba(171, 248, 255, 0.52);
+    left: 46px;
+    top: -118px;
+    position: relative;
+    z-index: 6;
+}
+.window1_2{
+    left: 352px;
+    top: -203px;
+}
+.wwins1, .wwins1_1{
+    background: #9b4b0d;
+    height: 79px;
+    width: 3px;
+    position: relative;
+    left: 27px;
+    z-index: 7;
+}
+.wwins2{
+    height: 3px;
+    width: 60px;
+    background: #9b4b0d;
+    position: absolute;
+    left: 0px;
+    top: 22px;
+    z-index: 7;
+}
+.wwins1_2{
+    height: 3px;
+    width: 60px;
+    background: #9b4b0d;
+    position: absolute;
+    left: -27px;
+    top: 22px;
+    z-index: 7;
+}
+.window{
+    width: 170px;
+    height: 78px;
+    border-style: solid;
+    border-color: rgb(155, 75, 13);
+    background-color: rgba(171, 248, 255, 0.52);
+    left: 145px;
+    top: -286px;
+    position: relative;
+    z-index: 6;
+}
+.wood, .wood1{
+    height: 50px;
+    width: 3px;
+    background: #9b4b0d;
+    position: absolute;
+    left: 130px;
+    top: -3px;
+    z-index: 7;
+} 
+.wood1{
+    left: 33px;
+    top: -3px;
+}
+.balcony1{
+    width: 178px;
+    border-width: 50px 13px 0;
+    border-style: solid;
+    border-color: #5a2d0a transparent;
+    left: -17px;
+    top: 47px;
+    position: relative;
+    z-index: 6; 
+}
+.wood2_1{
+    width: 497px;
+    height: 5px;
+    background-color: #9b4b0d;
+    top: -254px;
+    position: relative;
+    z-index: 5; 
+}
+.firstfloor1{
+    width: 497px;
+    height: 150px;
+    background-color: #d6b39e;
+    top: -254px;
+    position: relative;
+    z-index: 5;
+}
+.window2_1, .window2_2{
+    width: 60px;
+    height: 79px;
+    border-style: solid;
+    border-color: rgb(155, 75, 13);
+    background-color: rgba(171, 248, 255, 0.52);
+    left: 46px;
+    top: -376px;
+    position: relative;
+    z-index: 6;
+}
+.window2_2{
+    left: 352px;
+    top: -461px;
+}
+.wwins3, .wwins2_1{
+    background: #9b4b0d;
+    height: 79px;
+    width: 3px;
+    position: relative;
+    left: 27px;
+    z-index: 7;
+}
+.wwins4{
+    height: 3px;
+    width: 60px;
+    background: #9b4b0d;
+    position: absolute;
+    left: 0px;
+    top: 22px;
+    z-index: 7;
+}
+.wwins2_2{
+    height: 3px;
+    width: 60px;
+    background: #9b4b0d;
+    position: absolute;
+    left: -27px;
+    top: 22px;
+    z-index: 7;
+}
+.door1{
+    width: 70px;
+    height: 117px;
+    border-style: solid;
+    border-color: rgb(60, 30, 7);
+    background-color: rgb(4, 4, 4);
+    left: 179px;
+    top: -543px;
+    position: relative;
+    z-index: 5;
+}
+
+.knob1{
+    width: 2px;
+    height: 18px;
+    background: rgb(158, 77, 14);
+    border-radius: 50%;
+    position: relative;
+    left: 188px;
+    top: -1231px;
+    z-index: 6;
+}
+
+.house2{
+    width: 540px;
+    height: 403px;
+    position: absolute;
+    top: -1538px;
+    border-color: #F5F5F5;
+    border-style: solid;
+    z-index: 5;
+}
+.wood1_4, .wood3_2, .wood3_3{
+    width: 497px;
+    height: 5px;
+    background-color: #9b4b0d;
+    top: 1188px;
+    position: absolute;
+    z-index: 5; 
+}
+.wood3_2, .wood3_3{
+    width: 3px;
+    height: 304px;
+    left: 8px;
+    top: 1190px;
+}
+.wood3_2{
+    left: 502px;
+    top: 1190px;
+}
+.roof2{
+    width: 0;
+    height: 0;
+    border-left: 251px solid transparent;
+    border-right: 249px solid transparent;
+    border-bottom: 103px solid #1c1917;
+    top: 1085px;
+    position: absolute;
+    z-index: 5;
+}
+.secondfloor2{
+    width: 497px;
+    height: 150px;
+    background-color: #d6b39e;
+    top: 1193px;
+    position: absolute;
+    z-index: 5;
+}
+.window3_1, .window3_2{
+    width: 60px;
+    height: 79px;
+    border-style: solid;
+    border-color: rgb(155, 75, 13);
+    background-color: rgba(171, 248, 255, 0.52);
+    left: 54px;
+    top: 1221px;
+    position: absolute;
+    z-index: 6;
+}
+.window3_2{
+    left: 360px;
+    top: 1221px;
+}
+.wwins5, .wwins3_1{
+    background: #9b4b0d;
+    height: 79px;
+    width: 3px;
+    position: absolute;
+    left: 27px;
+    z-index: 7;
+}
+.wwins6{
+    height: 3px;
+    width: 60px;
+    background: #9b4b0d;
+    position: absolute;
+    left: 0px;
+    top: 22px;
+    z-index: 7;
+}
+.wwins3_2{
+    height: 3px;
+    width: 60px;
+    background: #9b4b0d;
+    position: absolute;
+    left: -27px;
+    top: 22px;
+    z-index: 7;
+}
+.window1{
+    width: 170px;
+    height: 78px;
+    border-style: solid;
+    border-color: rgb(155, 75, 13);
+    background-color: rgba(171, 248, 255, 0.52);
+    left: 153px;
+    top: 1221px;
+    position: absolute;
+    z-index: 6;
+}
+.wood2, .wood3{
+    height: 50px;
+    width: 3px;
+    background: #9b4b0d;
+    position: absolute;
+    left: 130px;
+    top: -3px;
+    z-index: 7;
+} 
+.wood3{
+    left: 33px;
+    top: -3px;
+}
+.balcony2{
+    width: 178px;
+    border-width: 50px 13px 0;
+    border-style: solid;
+    border-color: #5a2d0a transparent;
+    left: -17px;
+    top: 47px;
+    position: absolute;
+    z-index: 6; 
+}
+.wood3_1{
+    width: 497px;
+    height: 5px;
+    background-color: #9b4b0d;
+    top: 1339px;
+    position: absolute;
+    z-index: 5; 
+}
+.firstfloor2{
+    width: 497px;
+    height: 150px;
+    background-color: #d6b39e;
+    top: 1344px;
+    position: absolute;
+    z-index: 5;
+}
+.window4_1, .window4_2{
+    width: 60px;
+    height: 79px;
+    border-style: solid;
+    border-color: rgb(155, 75, 13);
+    background-color: rgba(171, 248, 255, 0.52);
+    left: 54px;
+    top: 1374px;
+    position: absolute;
+    z-index: 6;
+}
+.window4_2{
+    left: 360px;
+    top: 1374px;
+}
+.wwins7, .wwins4_1{
+    background: #9b4b0d;
+    height: 79px;
+    width: 3px;
+    position: absolute;
+    left: 27px;
+    z-index: 7;
+}
+.wwins8{
+    height: 3px;
+    width: 60px;
+    background: #9b4b0d;
+    position: absolute;
+    left: 0px;
+    top: 22px;
+    z-index: 7;
+}
+.wwins4_2{
+    height: 3px;
+    width: 60px;
+    background: #9b4b0d;
+    position: absolute;
+    left: -27px;
+    top: 22px;
+    z-index: 7;
+}
+.door2{
+    width: 70px;
+    height: 117px;
+    border-style: solid;
+    border-color: rgb(60, 30, 7);
+    background-color: rgb(4, 4, 4);
+    left: 187px;
+    top: 1371px;
+    position: absolute;
+    z-index: 5;
+}
+
+.knob2{
+    width: 2px;
+    height: 18px;
+    background: rgb(158, 77, 14);
+    border-radius: 50%;
+    position: absolute;
+    left: 196px;
+    top: 1423px;
+    z-index: 6;
+}
+.house3{
+    width: 540px;
+    height: 403px;
+    position: fixed;
+    top: -1538px;
+    border-color: #F5F5F5;
+    border-style: solid;
+    z-index: 6;
+}
+.wood3_4, .wood4_2, .wood4_3{
+    width: 495px;
+    height: 4px;
+    background-color: #9b4b0d;
+    top: 103px;
+    left: 10px;
+    position: fixed;
+    z-index: 6; 
+}
+.wood4_2, .wood4_3{
+    width: 3px;
+    height: 304px;
+    left: 7px;
+    top: 104px
+}
+.wood4_2{
+    left: 504px;
+    top: 104px;
+}
+.roof3{
+    width: 0;
+    height: 0;
+    border-left: 251px solid transparent;
+    border-right: 249px solid transparent;
+    border-bottom: 103px solid #1c1917;
+    top: 2px;
+    position: fixed;
+    z-index: 6;
+}
+.secondfloor3{
+    width: 497px;
+    height: 150px;
+    background-color: #d6b39e;
+    top: 106px;
+    position: fixed;
+    z-index: 6;
+}
+.window5_1, .window5_2{
+    width: 60px;
+    height: 79px;
+    border-style: solid;
+    border-color: rgb(155, 75, 13);
+    background-color: rgba(171, 248, 255, 0.52);
+    left: 54px;
+    top: 135px;
+    position: fixed;
+    z-index: 7;
+}
+.window5_2{
+    left: 360px;
+    top: 135px;
+}
+.wwins9, .wwins5_1{
+    background: #9b4b0d;
+    height: 79px;
+    width: 3px;
+    position: fixed;
+    left: 85px;
+    z-index: 8;
+}
+.wwins5_1{
+    left: 391px;
+}
+.wwins10{
+    height: 3px;
+    width: 60px;
+    background: #9b4b0d;
+    position: fixed;
+    left: 57px;
+    top: 160px;
+    z-index: 8;
+}
+.wwins5_2{
+    height: 3px;
+    width: 60px;
+    background: #9b4b0d;
+    position: fixed;
+    left: 363px;
+    top: 160px;
+    z-index: 8;
+}
+.window2{
+    width: 170px;
+    height: 78px;
+    border-style: solid;
+    border-color: rgb(155, 75, 13);
+    background-color: rgba(171, 248, 255, 0.52);
+    left: 153px;
+    top: 134px;
+    position: fixed;
+    z-index: 7;
+}
+.wood4, .wood5{
+    height: 50px;
+    width: 3px;
+    background: #9b4b0d;
+    position: fixed;
+    left: 189px;
+    top: 134px;
+    z-index: 8;
+} 
+.wood5{
+    left: 286px;
+    top: 134px;
+}
+.balcony3{
+    width: 178px;
+    border-width: 50px 13px 0;
+    border-style: solid;
+    border-color: #5a2d0a transparent;
+    left: 138px;
+    top: 184px;
+    position: fixed;
+    z-index: 7; 
+}
+.wood4_1{
+    width: 497px;
+    height: 5px;
+    background-color: #9b4b0d;
+    top: 253px;
+    position: fixed;
+    z-index: 6; 
+}
+.firstfloor3{
+    width: 497px;
+    height: 150px;
+    background-color: #d6b39e;
+    top: 258px;
+    position: fixed; 
+    z-index: 6;
+}
+.window6_1, .window6_2{
+    width: 60px;
+    height: 79px;
+    border-style: solid;
+    border-color: rgb(155, 75, 13);
+    background-color: rgba(171, 248, 255, 0.52);
+    left: 54px;
+    top: 286px;
+    position: fixed;
+    z-index: 7;
+}
+.window6_2{
+    left: 360px;
+    top: 285px;
+}
+.wwins11, .wwins6_1{
+    background: #9b4b0d;
+    height: 79px;
+    width: 3px;
+    position: fixed;
+    left: 85px;
+    z-index: 8;
+}
+.wwins6_1{
+    left: 390px;
+}
+.wwins12{
+    height: 3px;
+    width: 60px;
+    background: #9b4b0d;
+    position: fixed;
+    left: 57px;
+    top: 311px;
+    z-index: 8;
+}
+.wwins6_2{
+    height: 3px;
+    width: 60px;
+    background: #9b4b0d;
+    position: fixed;
+    left: 363px;
+    top: 312px;
+    z-index: 8;
+}
+
+.door3{
+    width: 70px;
+    height: 117px;
+    border-style: solid;
+    border-color: rgb(60, 30, 7);
+    background-color: rgb(4, 4, 4);
+    left: 187px;
+    top: 286px;
+    position: fixed;
+    z-index: 7;
+}
+
+.knob3{
+    width: 2px;
+    height: 18px;
+    background: rgb(158, 77, 14);
+    border-radius: 50%;
+    position: fixed;
+    left: 196px;
+    top: 339px;
+    z-index: 8;
+}
+button{
+    position: fixed;
+    width: 58px;
+    height: 25px;
+    top: 4px;
+    left: 530px;
+    z-index: 8;
+    background-color: #00f6ffa8;
+}
