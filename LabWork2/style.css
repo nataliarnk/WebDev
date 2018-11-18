@@ -154,43 +154,33 @@ footer{
 	color: black;
 }
 
-/* View for mobile device(Tablet) */
+
 @media (max-width: 768px){
     header nav{
-        width: 550px;
-    }
-
-    /* .footer__section_menu nav {
-        margin: 20px 30px;
-    } */
+        width: 590px;
+        padding-left: 210px;
+        margin-top: -60px;
+	}
 }
-
 @media (orientation: Landscape) and (max-width: 667px){
     header nav{
-        width: 480px;
+        width: 580px;
+        float: left;
+        padding-left: 88px;
     }
-
     .footer__section_menu nav{
-        margin: unset;
+    	width: 580px;
+    	padding-left: 130px;
     }
-
-    
 }
 
-/* Landscape orientation (Smatphone) */
+
 @media (orientation: Landscape) and (max-width: 640px){
     header nav{
-        width: 450px;
+        width: 465px;
+        float: left;
+        padding-left: 88px;
     }
-
-    .footer__section_menu nav{
-        margin: unset;
-    }
-
-    .footer__section_menu nav a{
-        margin-left: 80px;
-    }
-
     
 }
 
@@ -198,103 +188,130 @@ footer{
 
 @media (orientation: portrait) and (max-width: 375px){
     header .logo{
-        position: relative;
-        left: 35%;
-    }
-
+        max-width: 155px;
+    	max-height: 59px;
+    } 
     header nav{
-        width: 100%;
-        top: unset;
-        left: unset;
-    }
-
-    header nav a{
-        width: 60px;
-        
-    }
-
-    header nav a:hover{
-        background-color: unset;
-    }
-
-    .footer__section_menu nav{
-        margin: 2px;
-        padding-left: unset;
-        padding: unset;
-    }
+    	width: 408px;
+    	float: left;
+    	padding-left: 15px;
+    	margin-top: -52px;
+    }  
+	header nav a{
+		font-size: 12pt;
+		margin: -4px;
+	}
+	header nav:hover{
+		font-size: 14pt;
+		padding-left: 5px;
+	}
 
     .img1{
         position: relative;
-        left: 5%;
+        width: 100px;
+        height: 100px;
     }
+    .content {
+    	padding: 46px 0px;
+    }
+    main h3{
+    	margin: -140px 0 -47px 55px;
+    	font-size: 13pt;
+    }
+
     .img2{
         position: relative;
-        float:left;
-        
+        width: 100px;
+        height: 100px;
     }
-
-    main .content h2{
-        text-align: center;
-    }
+	.back2{
+		height: 1597px;
+	}
+	main h2 {
+    	margin: -50px 0 -47px 206px;
+    	font-size: 16pt;
+}
+	main ul{
+		padding-left: 17px;
+	}
 
     footer .content{
+    	width: 375px;
         height: 100px;
     }
 
-    .footer__section_menu nav a{
-        margin-left: 15px;
-    }
+    footer .logo{
+        max-width: 155px;
+    	max-height: 59px;
+}
 
+	.footer__section_menu nav{
+	    padding-left: 85px;
+}
+
+	.footer__section_menu nav a{
+	    margin: 9px;
+	    font-size: 13pt;
+	}
+	.footer__section_contact a{
+	font-size: 10pt;
+	}
 }
 
 
 
 
-
-
 /* View for mobile device(smartphone). Orientation - Portrait */
-@media (max-width: 360px)  
-    and (orientation: portrait){
-    
-
-    .img1{
-        position: relative;
-        margin-left: 5%;
-    }
-    .img2{
-        position: relative;
-        float:left;
-        
-    }
-
-    main .content h2{
-        text-align: center;
-    }
-
-    header nav{
-        width: 100%;
-        top: -1px;
-        left: -1px;
-    }
-
-    
-
-    
-
-    .footer__section_menu nav{
-        display: inline-block;
-    }
-
-    .footer__section_menu nav{
-        float: none;
-    }
-
+@media (max-width: 330px) and (orientation: portrait){
     header .logo{
-        position: relative;
-        left: 35%;
+        max-width: 133px;
+    	max-height: 48px;
+    } 
+    header nav{
+    	width: 220px;
+    	float: left;
+    	padding-left: 0px;
+    	margin-top: -43px;
+    }  
+	header nav a{
+		font-size: 12pt;
+		margin: -6px;
+	}
+	header nav:hover{
+		font-size: 14pt;
+		padding-left: 0px;
+	}
+
+	.back2 {
+    	height: 1790px;
+	}
+
+	 footer .content{
+    	width: 375px;
+        height: 100px;
     }
 
-    header nav:hover {
-        background-color: unset;
-    }
+    footer .logo{
+        max-width: 133px;
+    	max-height: 48px;
+}
+
+	.footer__section_menu {
+		margin: 0;
+}
+
+	.footer__section_menu nav{
+	    padding-left: 85px;
+}
+
+	.footer__section_menu nav a{
+	    margin: 9px;
+	    font-size: 12pt;
+	}
+	.footer__section_contact a{
+	font-size: 9pt;
+	}
+}
+
+  
 }
