@@ -18,7 +18,7 @@ html, body{
     max-width: 960px;
     margin: auto;
     padding: 0 15px;
-	background: #ddeaeed9;
+	background-color: #ddeaee;
 	overflow: hidden;
 }
 
@@ -32,7 +32,7 @@ header{
     width: 100%;
     max-width: 960px;
     margin: auto;
-    padding: 0 15px;
+    padding: 105px 15px;
 	background: #fad8df;
 	overflow: hidden;
 }
@@ -42,7 +42,7 @@ header{
     max-width: 960px;
     margin: auto;
     padding: 12px 15px;
-	background: #ddeaeed9;
+	background-color: #ddeaee;
 	overflow: hidden;
 }
 header .logo, footer .logo{
@@ -61,22 +61,20 @@ header .logo, footer .logo{
 header nav{
 	float: right;
 	margin: 10px 113px;
-}
-
-header nav li{
 	display: inline-block;
 	padding: 10px;
 	color: black;
 }
 
-header nav li a{
+header nav  a{
 	color: black;
+	padding: 7px;
 	text-decoration: none;
 	font-family: Brush Script MT, Brush Script Std, cursive;
 	font-size: 22pt;
 }
 
-header nav li:hover a{
+header nav :hover{
 	font-size: 23pt;
 }
 
@@ -91,14 +89,14 @@ main{
 
 main h3{
 	font-family: Brush Script MT, Brush Script Std, cursive;
-	margin: 30px 0 -40px 90px;
+	margin: -55px 0 -40px 90px;
 	font-size: 22pt;
 }
 
 main h2{
 	font-family: Brush Script MT, Brush Script Std, cursive;
-	margin: -20px 0 -38px 494px;
-	font-size: 26pt;
+	margin: -20px 0 -38px 94px;
+	font-size: 22pt;
 }
 
 main p{
@@ -136,10 +134,6 @@ footer{
 	bottom: -6px;
 }
 
-.footer__row > *, .footer__section_menu nav{
-	float: left;
-}
-
 .footer__section_contact{
 	float: right;
 }
@@ -149,13 +143,158 @@ footer{
 }
 
 .footer__section_menu nav{
-	margin: 0px 10px;
+	padding-left: 200px;
 	font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
-.footer__section_menu nav li a{
+.footer__section_menu nav a{
 	text-decoration: none;
+	margin: 30px;
 	font-size: 21px;
 	color: black;
 }
 
+/* View for mobile device(Tablet) */
+@media (max-width: 768px){
+    header nav{
+        width: 550px;
+    }
+
+    /* .footer__section_menu nav {
+        margin: 20px 30px;
+    } */
+}
+
+@media (orientation: Landscape) and (max-width: 667px){
+    header nav{
+        width: 480px;
+    }
+
+    .footer__section_menu nav{
+        margin: unset;
+    }
+
+    
+}
+
+/* Landscape orientation (Smatphone) */
+@media (orientation: Landscape) and (max-width: 640px){
+    header nav{
+        width: 450px;
+    }
+
+    .footer__section_menu nav{
+        margin: unset;
+    }
+
+    .footer__section_menu nav a{
+        margin-left: 80px;
+    }
+
+    
+}
+
+
+
+@media (orientation: portrait) and (max-width: 375px){
+    header .logo{
+        position: relative;
+        left: 35%;
+    }
+
+    header nav{
+        width: 100%;
+        top: unset;
+        left: unset;
+    }
+
+    header nav a{
+        width: 60px;
+        
+    }
+
+    header nav a:hover{
+        background-color: unset;
+    }
+
+    .footer__section_menu nav{
+        margin: 2px;
+        padding-left: unset;
+        padding: unset;
+    }
+
+    .img1{
+        position: relative;
+        left: 5%;
+    }
+    .img2{
+        position: relative;
+        float:left;
+        
+    }
+
+    main .content h2{
+        text-align: center;
+    }
+
+    footer .content{
+        height: 100px;
+    }
+
+    .footer__section_menu nav a{
+        margin-left: 15px;
+    }
+
+}
+
+
+
+
+
+
+/* View for mobile device(smartphone). Orientation - Portrait */
+@media (max-width: 360px)  
+    and (orientation: portrait){
+    
+
+    .img1{
+        position: relative;
+        margin-left: 5%;
+    }
+    .img2{
+        position: relative;
+        float:left;
+        
+    }
+
+    main .content h2{
+        text-align: center;
+    }
+
+    header nav{
+        width: 100%;
+        top: -1px;
+        left: -1px;
+    }
+
+    
+
+    
+
+    .footer__section_menu nav{
+        display: inline-block;
+    }
+
+    .footer__section_menu nav{
+        float: none;
+    }
+
+    header .logo{
+        position: relative;
+        left: 35%;
+    }
+
+    header nav:hover {
+        background-color: unset;
+    }
+}
