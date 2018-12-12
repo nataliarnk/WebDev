@@ -1,0 +1,192 @@
+*{
+	font-family: Catamaran;
+	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+.wrap {
+	display: flex;
+	flex-direction: column;
+	min-height: 200%;
+}
+header{
+	background-image: url(img/neonbrand-570373-unsplash.png);
+	width: 1263px;
+	height: 660px;
+	background-color: #00a8b2;
+	background-blend-mode: overlay;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.logo_header{
+	flex-direction: column;
+}
+.text{
+	text-align: center;
+	color: #333333;
+	font-size: 32px;
+	line-height: 54px;
+	letter-spacing: 3.6px;
+}
+.registr{
+	width: 377px;
+	height: 422px;
+	box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7);
+	background-color: #333333;
+	align-content: space-between;
+}
+.headline{
+	display: flex;
+	flex-direction: row;
+}
+.b1, .b2 {
+	width: 190px;	
+	height: 58px;
+	background-color: #333333;
+	border: none;
+	font-size: 14pt;
+	color: #ffffff;
+	letter-spacing: 4px;
+	line-height: 0.1px;
+}
+.b2{
+	background-color: #ffffff;
+	opacity: 0.8;
+    color: #797979;
+}
+.registrform{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 18px;
+}
+.Name{
+	width: 347px;
+	height: 40px;
+	margin: 10px;
+	font-size: 20px;
+}
+.email{
+	width: 347px;
+	height: 40px;
+	font-size: 20px;
+}
+.password{
+	width: 347px;
+	height: 40px;
+	margin: 10px;
+	font-size: 20px;
+}
+.form-text{
+	width: 347px;
+	height: 40px;
+}
+.Code{
+	width: 347px;
+	height: 40px;
+	font-size: 20px;
+}
+.register{
+	text-align: center;
+	width: 347px;
+	height: 40px;
+	margin: 10px;
+	background-color: #ff6600;
+}
+.register a{
+	color: #484848;
+	font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+main {
+  flex: 1 0 auto;
+}
+
+.title1, .title2{
+	text-align: center;
+	color: #00a8b2;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 3px;
+	margin-top: 70px;
+}
+.about{
+	display: flex;
+	justify-content: center;
+	color: #333333;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 1.6px;
+}
+.instruct{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+h2{
+	text-align: center;
+	font-weight: 300;
+	line-height: 36px;
+	color: #00a8b2;
+	font-family: "Catamaran - Black";
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1.8px;
+}
+footer{
+  	flex: 0 0 auto;
+	width: 1284px;
+	height: 121px;
+	background-color: #333333;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.logo_footer{
+	width: 160px;
+	height: 64px;
+	padding: 20px 0 0px 25px;
+}
+.footer__section_contacts{
+	display: flex;
+	align-content: center;
+	margin-left: 900px;
+    margin-top: -73px;
+    flex-direction: column;
+}
+.footer__section_contacts a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 35px;
+    margin-left: -40px;
+}
+
+.footer__section_contacts p{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+	padding: 7px 0 0 14px ;
+}
+.asset1, .asset2{
+	width: 45px;
+	height: 5px;
+	background-color: #ffffff;
+}
+.asset1{
+    margin-top: -20px;
+    margin-left: 78px;
+}
+.asset2{
+    margin-top: -5px;
+    margin-left: -43px;
+}
